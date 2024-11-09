@@ -67,7 +67,7 @@ def looped_crawl(categories):
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Superdisk1!",
+    password="-",
     database="finance_nifty50"
 )
 
