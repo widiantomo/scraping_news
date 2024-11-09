@@ -16,7 +16,7 @@ class Ticker2Pipeline(object):
     def __init__(self, host, user, password, database, table):
         self.host = "localhost"
         self.user = "root"
-        self.password = "Superdisk1!"
+        self.password = "-"
         self.database = "finance_nifty50"
         self.table = "newscrawl"
 
