@@ -15,3 +15,4 @@ class Ticker2Item(scrapy.Item):
     datex = scrapy.Field()
     title = scrapy.Field()
     content = scrapy.Field()
+    polarity = scrapy.Field()
